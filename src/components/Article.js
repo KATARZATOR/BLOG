@@ -1,6 +1,5 @@
-// src/components/Article.js
 import React, { useContext } from 'react';
-import PropTypes from 'prop-types'; // Добавлен импорт PropTypes
+import PropTypes from 'prop-types';
 import { Link, useNavigate } from 'react-router-dom';
 import styles from './Article.module.css';
 import heart from '../assets/heart.svg';
