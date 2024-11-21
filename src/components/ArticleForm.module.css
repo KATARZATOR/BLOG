@@ -1,0 +1,129 @@
+.articleForm {
+  width: 938px;
+  min-height: 701px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+
+
+}
+.articleFormInfo{
+padding:32px;
+padding-top: 48px;
+font-weight: 400;
+}
+
+.articleForm h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.articleForm label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.articleForm input[type='text'],
+.articleForm textarea {
+  width: 100%;
+  padding: 8px;
+
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.articleForm textarea {
+  resize: vertical;
+  height: 168px;
+}
+
+.tagInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.tagInput input {
+  flex: 1;
+  margin-right: 8px;
+  max-width: 300px;
+  height: 40px;
+}
+
+.tagInput button {
+  margin-right: 8px;
+  background-color: #fff;
+  padding: 8px 36px 8px 36px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  max-height: 40px;
+
+}
+
+.inputError {
+  border-color: #f5222d !important;
+}
+
+.errorMessage {
+  color: #f5222d;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.articleForm button[type='submit'] {
+  width: 319px;
+  height: 40px;
+  padding: 12px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+  border-radius: 4px;
+}
+
+.articleForm button[type='submit']:hover {
+  background-color: #1070d3;
+}
+input::placeholder {
+  color: #BFBFBF;
+}
+input[type="text"] {
+  height: 40px;
+  box-sizing: border-box;
+}
+.deleteButton {
+  color: #F5222D !important;
+  border: 1px solid #F5222D;
+  background-color: transparent;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addButton {
+  color: #1890FF !important;
+  border: 1px solid #1890FF;
+  background-color: transparent;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #e6f7ff;
+}
+
+.deleteButton:hover {
+  background-color: #ffe6e6;
+}

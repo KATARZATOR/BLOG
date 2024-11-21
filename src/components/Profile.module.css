@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.profileForm {
+  font-family: 'Roboto', sans-serif;
+  width: 384px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.profileFormInfo {
+  padding: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.profileForm h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 500;
+  color: #262626;
+  margin-top: 0;
+}
+
+.profileForm label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.profileForm input[type='text'],
+.profileForm input[type='email'],
+.profileForm input[type='password'],
+.profileForm input[type='url'] {
+  width: 320px;
+  padding: 8px;
+  margin-top: 2px;
+  height: 40px;
+  box-sizing: border-box;
+  color: #000000;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.inputError {
+  border-color: #f5222d !important;
+}
+
+.inputError:focus {
+  border-color: #f5222d;
+  box-shadow: 0 0 0 2px rgba(245, 34, 45, 0.2);
+}
+
+.errorMessage {
+  color: #f5222d;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.profileForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+  border-radius: 4px;
+}
+
+.profileForm button:hover {
+  background-color: #1070d3;
+}

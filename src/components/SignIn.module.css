@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.signInForm {
+    font-family: 'Roboto', sans-serif;
+    width: 384px;
+    height: 374px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  .signInFormInfo{
+    padding:32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .signInForm h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+  
+  .signInForm label {
+    display: block;
+    margin-bottom: 16px;
+  }
+  
+  .signInForm input[type='text'],
+  .signInForm input[type='email'],
+  .signInForm input[type='password'] {
+    width: 320px;
+    padding: 8px;
+    margin-top: 2px;
+    height: 40px;
+    box-sizing: border-box;
+    color:#BFBFBF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .signInForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .signInForm button:hover {
+    background-color: #1070d3;
+  }
+  p{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #8C8C8C;
+  }
+  .signUpLink{
+    color: #1890FF;
+    text-decoration: none; 
+  }
+  button{
+    border-radius: 4px;
+  }

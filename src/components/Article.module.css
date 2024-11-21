@@ -1,0 +1,99 @@
+.articleCard {
+  background-color: #FFFFFF;
+  width: 938px;
+  min-height: 140px;
+  color: #000;
+  margin-bottom: 26px;
+  box-shadow: 0px 4px 12px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+}
+
+.articleHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  padding-bottom: 0px;
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleFirst {
+  display: flex;
+  align-items: center;
+}
+
+.articleTitle {
+  margin-right: 13px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1890FF;
+  text-decoration: none;
+}
+
+.articleTitle:hover {
+  text-decoration: underline;
+}
+
+.articleLikes {
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000BF;
+  display: flex;
+  align-items: center;
+}
+
+.titleTags {
+  margin-top: 8px;
+}
+
+.tag {
+  color: #00000080;
+  border: 1px solid #00000080;
+  border-radius: 2px;
+  padding: 2px 6px 3px 5px;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.headerInfo {
+  display: flex;
+  align-items: center;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  align-items: flex-end;
+}
+
+.infoName {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000D9;
+}
+
+.infoDate {
+  font-size: 12px;
+  line-height: 22px;
+  color: #00000080;
+}
+
+.headerAvatar img {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
+
+.articleText {
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000BF;
+  padding: 16px;
+  padding-top: 0;
+}

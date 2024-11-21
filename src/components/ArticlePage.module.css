@@ -1,0 +1,178 @@
+.articlePage {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.articleCard {
+  background-color: #FFFFFF;
+  width: 938px;
+  color: #000;
+  padding: 20px;
+  box-shadow: 0px 4px 12px 0px #00000026;
+}
+
+.articleHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleFirst {
+  display: flex;
+  align-items: center;
+}
+
+.articleTitle {
+  margin-right: 13px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1890FF;
+}
+
+.articleLikes {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000BF;
+  display: flex;
+  align-items: center;
+}
+
+.titleTags {
+  margin-top: 8px;
+}
+
+.tag {
+  color: #00000080;
+  border: 1px solid #00000080;
+  border-radius: 2px;
+  padding: 2px 6px 3px 5px;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.headerInfo {
+  display: flex;
+  align-items: center;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  align-items: flex-end;
+}
+
+.infoName {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000D9;
+}
+
+.infoDate {
+  font-size: 12px;
+  line-height: 22px;
+  color: #00000080;
+}
+
+.headerAvatar img {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
+
+.articleText {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000BF;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.editButton,
+.deleteButton {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.editButton {
+  background-color: transparent;
+  color: #52C41A;
+  border: 1px solid #52C41A;
+  text-decoration: none;
+}
+
+.editButton:hover {
+  background-color:#c4ffa6;
+}
+
+.deleteButton {
+  background-color: transparent;
+  color: #F5222D;
+  border: 1px solid #F5222D;
+}
+
+.deleteButton:hover {
+  background-color: rgb(255, 173, 173);
+}
+
+.confirmModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmContent {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.confirmButtons {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.confirmButtons button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+.confirmButtons button:first-child {
+  background-color: #f5222d;
+  color: #fff;
+}
+
+.confirmButtons button:last-child {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.confirmButtons button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.signUpForm {
+  width: 384px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 36px;
+  padding-top: 48px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  color: #262626;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signUpForm h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 500;
+  color: #262626;
+  margin-top: 0;
+}
+
+.signUpForm label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.signUpForm input[type='text'],
+.signUpForm input[type='email'],
+.signUpForm input[type='password'] {
+  width: 320px;
+  padding: 8px;
+  margin-top: 2px;
+  height: 40px;
+  box-sizing: border-box;
+  color: #000000;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.inputError {
+  border-color: #f5222d !important;
+}
+
+.inputError:focus {
+  border-color: #f5222d;
+  box-shadow: 0 0 0 2px rgba(245, 34, 45, 0.2);
+}
+
+.errorMessage {
+  color: #f5222d;
+  font-size: 12px;
+margin:0px;
+position: absolute;
+}
+
+.signUpForm .agreement {
+  display: flex;
+  align-items: flex-start;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  /* margin-top: 21px; */
+  margin-bottom: 0;
+}
+
+.signUpForm .agreement input {
+  margin-right: 8px;
+  height: 16px;
+  width: 16px;
+  transform: scale(1.5);
+}
+
+.signUpForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 4px;
+}
+
+.signUpForm button:hover {
+  background-color: #1070d3;
+}
+
+.signInText {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #8c8c8c;
+  margin-top: 16px;
+}
+
+.signInLink {
+  color: #1890ff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.signInLink:hover {
+  text-decoration: underline;
+}

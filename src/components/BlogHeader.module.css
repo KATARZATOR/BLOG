@@ -1,0 +1,72 @@
+.blogHeader {
+  background-color: #ffffff;
+  max-height: 80px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000000d9;
+}
+
+.headerBtn {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #000000d9;
+  border: none;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.btn2 {
+  color: #52c41a;
+  border: 1px solid #52c41a;
+  border-radius: 5px;
+  margin-left: 19px;
+  padding: 6px 18px;
+}
+
+.btnCreate {
+  color: #52c41a;
+  background-color: #ffffff;
+  border: 1px solid #52c41a;
+  border-radius: 5px;
+  margin-right: 19px;
+  padding: 6px 18px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000d9;
+  margin-right: 20px;
+}
+
+.userInfo span {
+  margin-right: 10px;
+}
+
+.userInfo img {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
+
+.btnLogOut {
+  border: 1px solid #000000bf;
+  border-radius: 4px;
+  padding: 6px 18px;
+}
