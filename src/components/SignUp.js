@@ -50,7 +50,6 @@ function SignUp() {
     <div className={styles.signUpForm}>
       <h2>Create new account</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
-        {/* Username */}
         <label>
           Username
           <input
