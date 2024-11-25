@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import App from './App';
 import './index.css';
@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <ConfigProvider
         theme={{
           components: {
@@ -27,6 +27,6 @@ root.render(
           <App />
         </UserProvider>
       </ConfigProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 );

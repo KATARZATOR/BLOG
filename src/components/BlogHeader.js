@@ -1,13 +1,17 @@
+/*eslint-disable*/
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from './BlogHeader.module.css';
 import { UserContext } from '../UserContext';
+import avatarPlaceholder from '../assets/Avatar.svg';
 
 function BlogHeader() {
   const { user, setUser } = useContext(UserContext);
+  const navigate = useNavigate();
 
   const handleLogout = () => {
     setUser(null);
+    navigate('/');
   };
 
   return (
@@ -26,7 +30,7 @@ function BlogHeader() {
             <Link to="/profile" className={styles.userInfo}>
               <span>{user.username}</span>
               <img
-                src={user.image || 'https://via.placeholder.com/46'}
+                src={user.image || avatarPlaceholder}
                 alt="Аватар"
               />
             </Link>
